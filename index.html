@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <style>
       .bd-placeholder-img {
@@ -65,69 +66,58 @@
       </button>
     </div>
   </div>
-</header>
-
-<main>
-
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Nigel P GitHub Repositories</h1>
         <p class="lead text-muted">Providing insights in Microsoft Azure and Nutanix</p>
+        <p class="lead text-muted">Click on a link to view a Project's repository</p>
         <a href="top"></a>
       </div>
     </div>
   </section>
+</header>
 
-  <div class="album py-5 bg-dark">
-    <div class="container">
+<main class="projects">
+  <section class="project">
+      <article>
+          <p class="title">
+              Azure DevOps Projects
+          </p>
+      </article>
+      <img src="images/azure_devops.jpg" alt="Azure DevOps Architecture diagram">
+      <article>
+          <a class="button" href="https://github.com/npworkcode/Python_Quality_Build_Releases_Using_Azure_Pipelines" class="btn btn-primary">Quality Build Releases using Azure Pipelines, JMeter, Selenium and Postman</a>
+          <a class="button" href="https://github.com/npworkcode/Terraform_Deployment_Using_Azure_Pipelines" class="btn btn-primary">Deploy Azure Artifacts to Azure Cloud Service using Azure Pipelines</a>
+          <a class="button" href="https://github.com/npworkcode/Python-CI-CD-Azure-Pipelines" class="btn btn-primary">Deploy a Python Machine Learning App with Azure Pipelines</a>
+          <a class="button" href="https://github.com/npworkcode/Docker_Python_Deploy" class="btn btn-primary">Deploy a Python App in a Docker container with GitHub Actions</a>
+      </article>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            
-            <div class="card-body">
-              <img src="images/azure_devops-card.jpg"/>
-              <p class="card-text">Azure Pipelines & GitHub Actions DevOps Projects</p>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <a href="https://github.com/npworkcode/Python_Quality_Build_Releases_Using_Azure_Pipelines" class="btn btn-primary">Quality Build Releases using Azure Pipelines, JMeter, Selenium and Postman</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/npworkcode/Terraform_Deployment_Using_Azure_Pipelines" class="btn btn-primary">Deploy Azure Resource Group and other Artifacts to Azure Cloud Service using Azure Pipelines</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/npworkcode/Python-CI-CD-Azure-Pipelines" class="btn btn-primary">Deploy a Python Machine Learning App with Azure Pipelines</a>
-                    </li>
-                    <li class="list-group-item">
-                      <a href="https://github.com/npworkcode/Docker_Python_Deploy" class="btn btn-primary">Deploy a Python App in a Docker container with GitHub Actions</a>
-                  </li>
-                </ul>  
-            </div>
-            <div class="card-body">
-              <img src="images/nutanix_cloud_on_aws-card.jpg"/>
-              <p class="card-text">Nutanix | Amazon Web Service Hybrid Cloud Projects</p>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <a href="https://github.com/npworkcode/hybrid-cloud-private-cloud" class="btn btn-primary">Nutanix Private Cloud - 3 Tier App</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/npworkcode/hybrid-cloud-3-tier-private-cloud" class="btn btn-primary">Nutanix 3 Tier - Hybrid Cloud</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/npworkcode/hybrid-cloud-3-tier-public-cloud-aws" class="btn btn-primary">Nutanix | Amazon Web Services - 3 Tier</a>
-                    </li>
-                </ul>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
+  </section>
+  <section class="project">
+      <article>
+          <p class="title">
+              Cloud Native Projects
+          </p>
+      </article>
+      <img src="images/cloud-native.png" alt="Cloud Native Architecture diagram">
+      <article>
+          <a class="button"  href="https://github.com/npworkcode/Techtrends_CI-CD" class="btn btn-primary">TechTrends CI-CD - Kubernetes, Helm, Docker and ArgoCD</a>
+      </article>
+  </section>
+  <section class="project">
+      <article>
+          <p class="title">
+              Nutanix Hybrid Cloud Projects
+          </p>
+      </article>
+      <img src="images/nutanix_cloud_on_aws-card.jpg" alt="Nutanix Hybrid Cloud Projects diagram">
+      <article>
+          <a class="button" href="https://github.com/npworkcode/hybrid-cloud-private-cloud" class="btn btn-primary">Nutanix Private Cloud - 3 Tier App</a>
+          <a class="button" href="https://github.com/npworkcode/hybrid-cloud-3-tier-private-cloud" class="btn btn-primary">Nutanix 3 Tier Cloud</a>
+          <a class="button" href="https://github.com/npworkcode/hybrid-cloud-3-tier-public-cloud-aws" class="btn btn-primary">Nutanix | Amazon Web Services - 3 Tier Hybrid Cloud</a>
+      </article>
+  </section>
 </main>
 
 <footer class="text-muted py-5">

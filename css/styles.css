@@ -1,0 +1,60 @@
+.project {
+    flex: 400px;
+    border: 5px solid #37966F;
+    border-radius: 20px;
+    flex-flow: column;
+    display: flex;
+    margin: 5px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFFBE6;
+    color: #356859;
+    border-radius: 10px;
+}
+
+a.button {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 86%;
+    text-align: center;
+    line-height: 3;
+    color: blue;
+    margin: 0% 5% 5% 5%;
+    border: 3px solid;
+    border-radius: 40px;
+    padding: 2%;
+}
+
+article > a:first-child {
+    margin-top: 5%;
+}
+
+a:link,
+a:visited,
+a:focus {
+    background: blanchedalmond;
+    color: #442C2E;
+    font-weight: bold;
+    border: 10px;
+}
+
+a:hover {
+    background: #F9AA33;
+    color: #4A6572;
+    border: 10px;
+}
+
+a:active {
+    background: #6200EE;
+    color: white;
+}
